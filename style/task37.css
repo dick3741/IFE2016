@@ -1,0 +1,43 @@
+#win {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 200px;
+  margin-left: -200px;
+  margin-top: -100px;
+  border: 3px solid red;
+}
+#win h2 {
+  margin-top: 0;
+  background: green;
+  padding: 10px 0; 
+  cursor: move;
+}
+#win span {
+  margin-left: 200px;
+  cursor: pointer;
+}
+#content div{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+#content button {
+  background: green;
+  padding: 10px 15px;
+  color: white;
+  cursor: pointer;
+}
+#mask {
+  display: none;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: green;
+  opacity: 0.3;
+}
+body {
+  height: 1200px;
+}
